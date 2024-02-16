@@ -21,4 +21,5 @@ This package heavily utilises [PiecewiseOrthogonalPolynomials.jl](https://github
 
 
 ## Contact
+Sheehan Olver: s.olver@imperial.ac.uk
 Ioannis Papadopoulos: papadopoulos@wias-berlin.de
