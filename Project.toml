@@ -1,0 +1,31 @@
+name = "ADIPoisson"
+uuid = "1fa11d02-f3f6-4cca-9972-e3d0037b19df"
+authors = ["Sheehan Olver <solver@mac.com>"]
+version = "0.0.1"
+
+[deps]
+AlternatingDirectionImplicit = "15a50297-6c96-42f2-b429-f639dcf4c52e"
+AppleAccelerate = "13e28ba4-7ad8-5781-acae-3021b1ed3924"
+BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
+BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
+BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
+ClassicalOrthogonalPolynomials = "b30e2e7b-c4ee-47da-9d5f-2c5c27239acd"
+ContinuumArrays = "7ae1f121-cc2c-504b-ac30-9b923412ae5c"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+InfiniteLinearAlgebra = "cde9dba0-b1de-11e9-2c62-0bab9446c55c"
+Infinities = "e1ba4f0e-776d-440f-acd9-e1d2e9742647"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MatrixFactorizations = "a3b82374-2e81-5b9e-98ce-41277c0e4c87"
+PiecewiseOrthogonalPolynomials = "4461d12d-4663-4550-8580-cb764c85e20f"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
+
+[compat]
+PiecewiseOrthogonalPolynomials = "0.4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
