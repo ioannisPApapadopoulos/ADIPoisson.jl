@@ -10,14 +10,14 @@ This package heavily utilises [PiecewiseOrthogonalPolynomials.jl](https://github
 
 |Figure|File: examples/|
 |:-:|:-:|
-|1|[1dtimings.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/1dtimings.jl)|
-|2|[1dtimings_multithread.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/1dtimings_multithread.jl)|
-|3|[pixels.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/pixels.jl)|
-|4|[adi_plots.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/adi_plots.jl)|
-|5a|[pixels.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/pixels.jl)|
-|5b|[adi_plots.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/adi_plots.jl)|
-|6a|[timeevolution_plots.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/timeevolution_plots.jl)|
-|6b|[timeevolution.jl](https://github.com/ioannisPApapadopoulos/QuasiOptimalhpFEM.jl/blob/main/scripts/timeevolution.jl)|
+|1|[1dtimings.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/1dtimings.jl)|
+|2|[1dtimings_multithread.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/1dtimings_multithread.jl)|
+|3|[pixels.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/pixels.jl)|
+|4|[adi_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/adi_plots.jl)|
+|5a|[pixels.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/pixels.jl)|
+|5b|[adi_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/adi_plots.jl)|
+|6a|[timeevolution_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution_plots.jl)|
+|6b|[timeevolution.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution.jl)|
 
 
 ## Contact
