@@ -55,7 +55,7 @@ plot(ps, nanabs.(getindex.(Ref(errs), tuple.(ω,ps))); yscale=:log10, xscale=:lo
 
 
 @time (x,y), pl_P,pl_Q = plan_poisson_transform_neumann(n, p);
-@time Δ⁻¹ = plan_poissonsolve_neumann!(n, p; ω = 2^2);
+@time Δ⁻¹ = plan_poissonsolve_neumann!(n, p; ω = 10^2);
 
 F = f.(x, reshape(y,1,1,size(y)...));
 surface(vec(x[end:-1:1,:]), vec(y[end:-1:1,:]), reshape(F[end:-1:1,:,end:-1:1,:], length(x), length(y))')
