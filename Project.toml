@@ -1,7 +1,7 @@
 name = "ADIPoisson"
 uuid = "1fa11d02-f3f6-4cca-9972-e3d0037b19df"
 authors = ["Sheehan Olver <solver@mac.com>"]
-version = "0.0.1"
+version = "0.0.2"
 
 [deps]
 AlternatingDirectionImplicit = "15a50297-6c96-42f2-b429-f639dcf4c52e"
