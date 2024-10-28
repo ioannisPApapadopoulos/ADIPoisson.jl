@@ -19,7 +19,7 @@ let n = 2, p = 4
     # vals = f.(x,reshape(y,1,1,size(y)...))
     # cfs = pl_P * vals
 
-    cfs = PseudoBlockArray(randn(n*(p+1),n*(p+1)), Fill(n,p+1), Fill(n,p+1))
+    cfs = BlockedArray(randn(n*(p+1),n*(p+1)), Fill(n,p+1), Fill(n,p+1))
     Δ⁻¹ * cfs
 end
 
@@ -29,7 +29,7 @@ for n in ns, p in pps(n) # truncation degree on each cell
     GC.enable(false)
     adi_buildtm[(n,p)] = @elapsed(Δ⁻¹ = plan_poissonsolve!(n, p))
     GC.enable(true)
-    cfs = PseudoBlockArray(randn(n*(p+1),n*(p+1)), Fill(n,p+1), Fill(n,p+1))
+    cfs = BlockedArray(randn(n*(p+1),n*(p+1)), Fill(n,p+1), Fill(n,p+1))
     GC.gc()
     GC.enable(false)
     adi_solvtm[(n,p)] = @elapsed(Δ⁻¹ * cfs)
