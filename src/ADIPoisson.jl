@@ -47,7 +47,7 @@ end
 function *(pl::PoissonPlan, cfs::AbstractMatrix)
     F = pl.QP*cfs*pl.QP'
     X = pl.padi*F
-    PseudoBlockArray(X, (axes(pl.QP,1), axes(pl.QP,1)))
+    BlockedArray(X, (axes(pl.QP,1), axes(pl.QP,1)))
 end
 
 
