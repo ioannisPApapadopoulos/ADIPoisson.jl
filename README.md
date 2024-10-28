@@ -19,7 +19,18 @@ This package heavily utilises [PiecewiseOrthogonalPolynomials.jl](https://github
 |6a|[timeevolution_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution_plots.jl)|
 |6b|[timeevolution.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution.jl)|
 
+## Installation
+
+First install the unregistered ```AlternatingDirectionImplicit.jl``` package
+
+```]add https://github.com/dlfivefifty/AlternatingDirectionImplicit.jl.git```
+
+Then 
+
+```]add https://github.com/ioannisPApapadopoulos/ADIPoisson.jl.git```
+
 
 ## Contact
 Sheehan Olver: s.olver@imperial.ac.uk
+
 Ioannis Papadopoulos: papadopoulos@wias-berlin.de
