@@ -2,10 +2,14 @@ module ADIPoisson
 
 using PiecewiseOrthogonalPolynomials, ClassicalOrthogonalPolynomials, AlternatingDirectionImplicit, BlockArrays, MatrixFactorizations, StaticArrays, LinearAlgebra
 import Base: oneto, *
+import LinearAlgebra: ldiv!
 using ClassicalOrthogonalPolynomials: plan_grid_transform
 
-export plan_poissonsolve!, plan_poissonsolve_neumann!, plan_poisson_transform, plan_poisson_transform_neumann
+export plan_poissonsolve!, plan_poissonsolve_neumann!, plan_poisson_transform, plan_poisson_transform_neumann,
+        ADILaplacePreconditioner, apply_ncc
 
+
+include("adipreconditioner.jl")
 
 plan_poissonsolve!(n, p, (a,b) = (-1,1); kwds...) = _plan_poissonsolve!(DirichletPolynomial(range(a, b, n+1)), n, p; kwds...)
 plan_poissonsolve_neumann!(n, p, (a,b) = (-1,1); kwds...) = _plan_poissonsolve!(ContinuousPolynomial{1}(range(a, b, n+1)), n, p; kwds...)
