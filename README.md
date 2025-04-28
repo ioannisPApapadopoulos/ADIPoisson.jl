@@ -18,7 +18,7 @@ This package heavily utilises [PiecewiseOrthogonalPolynomials.jl](https://github
 |5b|[adi_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/adi_plots.jl)|
 |6a|[timeevolution_plots.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution_plots.jl)|
 |6b|[timeevolution.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/timeevolution.jl)|
-|7|[singular-variable-coefficient.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/singular-variable-coefficient.jl)|
+|7|[log_coefficient.jl](https://github.com/ioannisPApapadopoulos/ADIPoisson.jl/blob/main/scripts/log_coefficient.jl)|
 
 ## Installation
 
